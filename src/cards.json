@@ -2,30 +2,61 @@
     {
         "id": 1,
         "name": "Bob",
-        "image": "https://vignette.wikia.nocookie.net/bobsburgerpedia/images/3/3e/Bobbelcher2.png/revision/latest?cb=20130114075133"
-
+        "image": "/public/assets/images/Bob.jpg"
     },
     {
         "id": 2,
         "name": "Linda",
-        "image": "https://vignette.wikia.nocookie.net/bobsburgerpedia/images/b/b7/Lindab.png/revision/latest?cb=20130113071354"
+        "image": "public/assets/images/Linda.jpg"
     },
     {
         "id": 3,
         "name": "Tina",
-        "image": "https://vignette.wikia.nocookie.net/bobsburgerpedia/images/6/6e/Tina_render.png/revision/latest?cb=20130113192209"
-
+        "image": "public/assets/images/Tina.jpg"
     },
     {
         "id": 4,
         "name": "Gene",
-        "image": "https://vignette.wikia.nocookie.net/bobsburgerpedia/images/b/b7/Gene_Belcher.png/revision/latest?cb=20130114043308"
-
+        "image": "public/assets/images/Gene.jpg"
     },
     {
         "id": 5,
         "name": "Louise",
-        "image": "https://vignette.wikia.nocookie.net/bobsburgerpedia/images/b/b9/Louise_render.png/revision/latest?cb=20130113075349"
-
+        "image": "public/assets/images/Louise.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Jimmy Junior",
+        "image": "public/assets/images/Jjr.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Tammy",
+        "image": "public/assets/images/Tammy.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Gayle",
+        "image": "public/assets/images/Gayle.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Teddy",
+        "image": "public/assets/images/Teddy.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Zeke",
+        "image": "public/assets/images/Zeke.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Mr. Fischoeder",
+        "image": "public/assets/images/Mr._Fischoeder.jpg"
+    },
+    {
+        "id": 12,
+        "name": "Regular Rudy",
+        "image": "public/assets/images/RRudy.jpg"
     }
 ]
