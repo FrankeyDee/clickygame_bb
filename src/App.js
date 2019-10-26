@@ -11,6 +11,9 @@ class App extends Component {
   clickCard = id => {
     console.log(id);
     //WIN LOSS LOGIC
+    var clicked = id;
+    var clickedArray = [];
+    
     //SHUFFLE CARDS
     //ADD TO SCORE
   }

@@ -5,9 +5,7 @@
     margin: 1rem;
     width: 200px;
     box-shadow: 0 3px 6px #999, 0 3px 6px #999;
-    display: inline-block;
     align-content: flex-start;
-    top: 0;
   }
 
   img {

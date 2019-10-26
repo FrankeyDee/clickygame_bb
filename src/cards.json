@@ -2,61 +2,61 @@
     {
         "id": 1,
         "name": "Bob",
-        "image": "/public/assets/images/Bob.jpg"
+        "image": "./assets/images/Bob.jpg"
     },
     {
         "id": 2,
         "name": "Linda",
-        "image": "public/assets/images/Linda.jpg"
+        "image": "./assets/images/Linda.jpg"
     },
     {
         "id": 3,
         "name": "Tina",
-        "image": "public/assets/images/Tina.jpg"
+        "image": "./assets/images/Tina.jpg"
     },
     {
         "id": 4,
         "name": "Gene",
-        "image": "public/assets/images/Gene.jpg"
+        "image": "./assets/images/Gene.jpg"
     },
     {
         "id": 5,
         "name": "Louise",
-        "image": "public/assets/images/Louise.jpg"
+        "image": "./assets/images/Louise.jpg"
     },
     {
         "id": 6,
         "name": "Jimmy Junior",
-        "image": "public/assets/images/Jjr.jpg"
+        "image": "./assets/images/JimmyJr.jpg"
     },
     {
         "id": 7,
         "name": "Tammy",
-        "image": "public/assets/images/Tammy.jpg"
+        "image": "./assets/images/Tammy.jpg"
     },
     {
         "id": 8,
         "name": "Gayle",
-        "image": "public/assets/images/Gayle.jpg"
+        "image": "./assets/images/Gayle.jpg"
     },
     {
         "id": 9,
         "name": "Teddy",
-        "image": "public/assets/images/Teddy.jpg"
+        "image": "./assets/images/Teddy.jpg"
     },
     {
         "id": 10,
         "name": "Zeke",
-        "image": "public/assets/images/Zeke.jpg"
+        "image": "./assets/images/Zeke.jpg"
     },
     {
         "id": 11,
         "name": "Mr. Fischoeder",
-        "image": "public/assets/images/Mr._Fischoeder.jpg"
+        "image": "./assets/images/Mr._Fischoeder.jpg"
     },
     {
         "id": 12,
         "name": "Regular Rudy",
-        "image": "public/assets/images/RRudy.jpg"
+        "image": "./assets/images/RRudy.jpg"
     }
 ]
