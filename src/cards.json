@@ -1,0 +1,31 @@
+[
+    {
+        "id": 1,
+        "name": "Bob",
+        "image": "https://vignette.wikia.nocookie.net/bobsburgerpedia/images/3/3e/Bobbelcher2.png/revision/latest?cb=20130114075133"
+
+    },
+    {
+        "id": 2,
+        "name": "Linda",
+        "image": "https://vignette.wikia.nocookie.net/bobsburgerpedia/images/b/b7/Lindab.png/revision/latest?cb=20130113071354"
+    },
+    {
+        "id": 3,
+        "name": "Tina",
+        "image": "https://vignette.wikia.nocookie.net/bobsburgerpedia/images/6/6e/Tina_render.png/revision/latest?cb=20130113192209"
+
+    },
+    {
+        "id": 4,
+        "name": "Gene",
+        "image": "https://vignette.wikia.nocookie.net/bobsburgerpedia/images/b/b7/Gene_Belcher.png/revision/latest?cb=20130114043308"
+
+    },
+    {
+        "id": 5,
+        "name": "Louise",
+        "image": "https://vignette.wikia.nocookie.net/bobsburgerpedia/images/b/b9/Louise_render.png/revision/latest?cb=20130113075349"
+
+    }
+]
