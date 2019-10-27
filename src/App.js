@@ -6,17 +6,16 @@ import Wrapper from './components/Wrapper';
 import cards from './cards.json';
 
 class App extends Component {
-  state = {cards};
+  this.state = {
 
-  clickCard = id => {
-    console.log(id);
-    //WIN LOSS LOGIC
-    var clicked = id;
-    var clickedArray = [];
-    
-    //SHUFFLE CARDS
-    //ADD TO SCORE
-  }
+  };
+
+clickCard = id => {
+    // const guessed = this.state.guessed.filter
+    // };
+  //   //SHUFFLE CARDS
+  //   //ADD TO SCORE
+};
 
   render(){
     return (
