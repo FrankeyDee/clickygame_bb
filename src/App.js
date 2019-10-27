@@ -43,6 +43,7 @@ clickCard = id => {
     return (
       <Wrapper>
         <Title>Clicky Game</Title>
+        <div className='container'>
         {this.state.cards.sort(() => .5 - Math.random()).map(card => (
         <Card
           clickCard={this.clickCard}
@@ -51,6 +52,7 @@ clickCard = id => {
           image={card.image}
         />
         ))}
+        </div>
       </Wrapper>
     )
   }

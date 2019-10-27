@@ -1,13 +1,19 @@
 .card {
+  display: flex;
+  flex-wrap: wrap;
   cursor: pointer;
   width: 140px;
   height: 200px;
-  margin:0;
+  margin:2px;
+  min-width: 0;
   }
 
 
   img {
     height:100%;
     width: 100%;
-    
+  }
+
+  .container {
+    width: 50%;
   }
