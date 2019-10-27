@@ -1,4 +1,6 @@
 .title {
     font-size: x-large;
     font-family: 'Staatliches', cursive;
+    position: sticky;
 }
+
