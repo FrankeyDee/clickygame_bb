@@ -5,61 +5,48 @@ import Card from './components/Card';
 import Wrapper from './components/Wrapper';
 import cards from './cards.json';
 
-class App extends React.Component {
+class App extends Component {
   state = {
-    cards: cards,
+    cards,
     score: 0,
-    highscore: 0,
-    selected: [],
-  };
-
-clickCard = id => {
-  if (!this.state.cards.includes(id)) {
-    let selected = this.state.selected
-    selected.push(id)
-    let score = this.state.score + 1
-    this.setState({ selected, score, message: "Correct!" })
-    if (score > this.state.highScore) {
-      let highScore = score
-      this.setState({ highScore })
-    }
-    if (score === this.state.cards.length) {
-      this.setState({
-        score: 0,
-        selected: [],
-        message: "PERFECT SCORE! Click to start over"
-      })
-    }
-  } else {
-      this.setState({
-        score: 0,
-        cards: [],
-        message: "OH NO! You've already clicked this!"
-      })
+    topScore: 0,
+    selected: []
   }
-};
 
+  clickCard = id => {
+    if (!this.state.selected.includes(id)) {
+      // //push ids into 'selected' array
+      let selected = this.state.selected
+      selected.push(id);
+      // console.log(selected);
+      let newscore = this.state.score + 1 > this.state.topScore ? this.state.score + 1 : this.state.topScore
+      this.setState({
+        score: this.state.score + 1,
+        topScore: newscore,
+        message: "Great Job! Click on a new card!",
+        selected: selected
+      })
+    }
+  };
   render(){
     return (
       <Wrapper>
-        <Title>Clicky Game</Title>
+        <Title
+          score={this.state.score}
+          topScore={this.state.topScore}>
+        Clicky Game</Title>
         <div className='container'>
-        {this.state.cards.sort(() => .5 - Math.random()).map(card => (
-        <Card
-          clickCard={this.clickCard}
-          id={card.id}
-          key={card.id}
-          image={card.image}
-        />
-        ))}
+          {this.state.cards.map(card => (
+            <Card
+              id={card.id}
+              key={card.id}
+              image={card.image}
+              clickCard={this.clickCard}
+            />
+          ))}
         </div>
       </Wrapper>
     )
-  }
-
+  };
 };
-
-
-
-
 export default App;
