@@ -19,22 +19,33 @@ class App extends Component {
       let selected = this.state.selected
       selected.push(id);
       // console.log(selected);
-      let newscore = this.state.score + 1 > this.state.topScore ? this.state.score + 1 : this.state.topScore
+      let newscore = this.state.score + 1 > this.state.topScore ? this.state.score + 1 : this.state.topScore;
       this.setState({
         score: this.state.score + 1,
         topScore: newscore,
-        message: "Great Job! Click on a new card!",
         selected: selected
       })
+
+    }
+    else {
+      this.setState({
+        score: 0,
+        selected: [],
+      });
+      alert("OH NO! You have already clicked that card. Game Over!")
+
     }
   };
   render(){
     return (
       <Wrapper>
         <Title
+          message={this.state.message}
           score={this.state.score}
           topScore={this.state.topScore}>
-        Clicky Game</Title>
+            Clicky Game: Bob's Burgers
+          </Title>
+        
         <div className='container'>
           {this.state.cards.map(card => (
             <Card
