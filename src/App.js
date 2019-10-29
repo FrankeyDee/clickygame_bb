@@ -20,6 +20,7 @@ class App extends Component {
       selected.push(id);
       // console.log(selected);
       let newscore = this.state.score + 1 > this.state.topScore ? this.state.score + 1 : this.state.topScore;
+      
       this.setState({
         score: this.state.score + 1,
         topScore: newscore,
@@ -36,23 +37,21 @@ class App extends Component {
 
     }
   };
+
   render(){
     return (
       <Wrapper>
         <Title
-          message={this.state.message}
           score={this.state.score}
-          topScore={this.state.topScore}>
-            Clicky Game: Bob's Burgers
-          </Title>
-        
-        <div className='container'>
-          {this.state.cards.map(card => (
+          topScore={this.state.topScore}>Clicky Game: Bob's Burgers</Title>
+          <div className="container">
+          {this.state.cards.sort(() => 0.5 - Math.random()).map(card => (
             <Card
               id={card.id}
               key={card.id}
               image={card.image}
               clickCard={this.clickCard}
+              alt={card.name}
             />
           ))}
         </div>
